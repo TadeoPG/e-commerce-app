@@ -5,24 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d89763c-7f81-4a51-a3dd-12d803bc0e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/java/com/tadeo/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/discovery-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/test/java/com/tadeo/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/handler/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,11 +72,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.CustomerApplication.executor": "Run",
+    "Spring Boot.DiscoveryApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IntelliJ IDEA/IdeaProjects/e-commerce-app/services/discovery/pom.xml",
+    "last_opened_file_path": "D:/IntelliJ IDEA/IdeaProjects/e-commerce-app/services/customer/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,16 +87,31 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "spring",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tadeo.customer.handler" />
+      <recent name="com.tadeo.customer.customer" />
+      <recent name="com.tadeo.customer.exception" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEA\IdeaProjects\e-commerce-app\services" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tadeo.configserver.ConfigServerApplication" />
@@ -93,6 +121,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tadeo.customer.CustomerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +155,7 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
     </list>
@@ -149,7 +185,8 @@
       <workItem from="1726376764943" duration="2584000" />
       <workItem from="1726603127902" duration="2071000" />
       <workItem from="1726981417759" duration="43000" />
-      <workItem from="1726981476230" duration="3261000" />
+      <workItem from="1726981476230" duration="8910000" />
+      <workItem from="1727049491383" duration="8639000" />
     </task>
     <servers />
   </component>
