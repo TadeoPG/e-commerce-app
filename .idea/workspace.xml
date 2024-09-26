@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d89763c-7f81-4a51-a3dd-12d803bc0e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/customer-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/tadeo/customer/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/exception/ProductPurchaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/handler/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductPurchaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductPurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V2__insert_data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -46,7 +53,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/UnProgramadorNaceOfficial/Spring-Docker-App.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/TadeoPG/e-commerce-app.git&quot;,
     &quot;accountId&quot;: &quot;582adae2-d550-4f93-bb75-4921764d5bdd&quot;
   }
 }</component>
@@ -71,14 +78,16 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.CustomerApplication.executor": "Run",
-    "Spring Boot.DiscoveryApplication.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigServerApplication.executor": "Debug",
+    "Spring Boot.CustomerApplication.executor": "Debug",
+    "Spring Boot.DiscoveryApplication.executor": "Debug",
+    "Spring Boot.ProductApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "temurin-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IntelliJ IDEA/IdeaProjects/e-commerce-app/services/customer/pom.xml",
+    "last_opened_file_path": "C:/Users/tadeo/Documents/IdeaProjects/e-commerce-app/services/product/src/main/java/org/tadeo/ecommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,17 +99,35 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "spring",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.tadeo.ecommerce.exception" />
+      <recent name="org.tadeo.ecommerce.product" />
+      <recent name="org.tadeo.ecommerce.category" />
       <recent name="com.tadeo.customer.handler" />
       <recent name="com.tadeo.customer.customer" />
-      <recent name="com.tadeo.customer.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tadeo\Documents\IdeaProjects\e-commerce-app\services\product\src\main\java\org\tadeo\ecommerce" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEA\IdeaProjects\e-commerce-app\services" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="docker-compose.yml: Compose Deployment" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -139,6 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.tadeo.ecommerce.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -155,6 +189,7 @@
     </configuration>
     <list>
       <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.DiscoveryApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
@@ -169,8 +204,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -187,6 +222,8 @@
       <workItem from="1726981417759" duration="43000" />
       <workItem from="1726981476230" duration="8910000" />
       <workItem from="1727049491383" duration="8639000" />
+      <workItem from="1727329003928" duration="5329000" />
+      <workItem from="1727334353649" duration="835000" />
     </task>
     <servers />
   </component>
