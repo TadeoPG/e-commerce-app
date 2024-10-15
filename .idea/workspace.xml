@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d89763c-7f81-4a51-a3dd-12d803bc0e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/order-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/config/KafkaOrderTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/config/RestTemplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/customer/CustomerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/handler/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/kafka/OrderConfirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/kafka/OrderProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/order/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLineMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLineRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLineRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLineResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/orderline/OrderLineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/product/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/product/PurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/tadeo/ecommerce/product/PurchaseResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a21b89e2-f983-42d6-a9d8-cfa29eaa63a6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a21b89e2-f983-42d6-a9d8-cfa29eaa63a6/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a21b89e2-f983-42d6-a9d8-cfa29eaa63a6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a21b89e2-f983-42d6-a9d8-cfa29eaa63a6/storage_v2/_src_/database/product.78yN7Q.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a21b89e2-f983-42d6-a9d8-cfa29eaa63a6/storage_v2/_src_/database/product.78yN7Q/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d639731d-e230-43e3-bcba-786ec5a5d9ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d639731d-e230-43e3-bcba-786ec5a5d9ab.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/org/tadeo/ecommerce/product/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +82,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "spring",
+    "settings.editor.selected.configurable": "preferences.updates",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -234,8 +199,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -255,6 +220,7 @@
       <workItem from="1727329003928" duration="5329000" />
       <workItem from="1727334353649" duration="835000" />
       <workItem from="1727843822371" duration="11540000" />
+      <workItem from="1728928246900" duration="21345000" />
     </task>
     <servers />
   </component>
